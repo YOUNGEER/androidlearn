@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:id="@+id/tv_text"
+        style="@style/register_title_item"
+        tools:text="@string/phone_code"
+        />
+    <com.wenyi.ui.views.text.ClearEditText
+        android:id="@+id/et_text"
+        style="@style/register_edit_style"
+        android:layout_width="0dp"
+        tools:hint="@string/input_phone"
+        android:textColor="@color/text"
+        android:layout_weight="1"
+        />
+
+</merge>

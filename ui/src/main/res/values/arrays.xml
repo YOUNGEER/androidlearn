@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--10 已提交审核信息 20待认证 30审核失败,请重新提交店铺认证信息 40已认证-->
+    <array name="joinin_state">
+        <item>已提交审核信息</item>
+        <item>待认证</item>
+        <item>审核失败</item>
+        <item>已认证</item>
+    </array>
+</resources>

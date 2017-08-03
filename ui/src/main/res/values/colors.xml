@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme">#fd7d6f</color>
+    <color name="text">#555555</color>
+    <color name="bg"> #f2f2f2</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_gray">#e1e1e1</color>
+    <color name="white_pressed">#ffd5d5d5</color>
+    <color name="divider">#dddddd</color>
+    <color name="title">#222222</color>
+    <color name="hint">#888888</color>
+    <color name="refresh_bg">#B3E5FC</color>
+    <color name="divider_color">#e4e4e4</color>
+    <color name="tab_bg">#f8f8f8</color>
+    <color name="tab_normal">#333333</color>
+    <color name="gary_text">#999999</color>
+    <color name="transparent1">#808080</color>
+    <color name="transparent">#00000000</color>
+    <color name="btn_enable">#D2D2D2</color>
+    <!--<color name="title_bg">#EFEFEF</color>-->
+    <color name="title_bg">#ffffff</color>
+<color name="text2">#AAAAAA</color>
+    <color name="item_title_text">#585858</color>
+    <color name="orange">#FB380A</color>
+    <color name="btn_color">@color/theme</color>
+</resources>

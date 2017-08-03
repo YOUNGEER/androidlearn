@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        tools:text="@string/user_name"
+        android:layout_marginLeft="@dimen/dp_16"
+        />
+
+
+    <com.wenyi.ui.views.text.ClearEditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="16dp"
+        android:singleLine="true"
+        android:textColor="@color/text"
+        android:textColorHint="@color/hint"
+        tools:hint="@string/phone_login"
+        android:textSize="@dimen/sp_16"
+        android:background="@drawable/sp_et_bg"
+     android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="@dimen/dp_16"
+        />
+
+
+
+</merge>

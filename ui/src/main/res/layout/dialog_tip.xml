@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/wh_mw"
+    android:background="@drawable/dialog_bg"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/dp_32"
+    android:paddingBottom="@dimen/dp_32"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/title"
+        tools:text="恭喜你，注册成功"
+        android:lines="3"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:gravity="center"
+        />
+
+
+    <com.wenyi.uistyle.widget.Button
+        android:id="@+id/dialog_ok"
+        style="@style/btn_confirm"
+        android:text="@string/ok"
+        android:layout_marginRight="@dimen/dp_32"
+        android:layout_marginLeft="@dimen/dp_32"
+        />
+
+
+</LinearLayout>

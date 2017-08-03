@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.wenyi.uistyle.widget.ImageView
+        android:id="@+id/title_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="@style/btn_ripple"
+        android:paddingLeft="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:src="@mipmap/ic_back"
+        />
+
+ <include layout="@layout/m_title_text"/>
+</merge>

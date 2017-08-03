@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" style="@style/wh_mw"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/dp_8"
+    android:paddingBottom="@dimen/dp_8"
+    >
+<ImageView
+    android:id="@+id/iv_icon"
+    style="@style/wh_ww"
+    tools:src="@mipmap/ic_menu_gray_sc"
+    android:paddingLeft="@dimen/dp_4"
+    android:paddingRight="@dimen/dp_8"
+    />
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/wh_ww"
+        tools:text="首页"
+        />
+</LinearLayout>

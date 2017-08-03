@@ -1,0 +1,1 @@
+include ':app', ':recycle', ':selectimg', ':refresh', ':tab', ':banner', ':photoview', ':optionview', ':recycler', ':widget', ':ui', ':uistyle'

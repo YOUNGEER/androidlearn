@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+    <ImageView
+        android:id="@+id/iv_load"
+        style="@style/wh_ww"
+        tools:src="@mipmap/ic_data_error" />
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="30dp"
+        android:textColor="#999999"
+        android:background="@drawable/sp_corner_white"
+        android:text="@string/reload_network"
+        />
+</merge>

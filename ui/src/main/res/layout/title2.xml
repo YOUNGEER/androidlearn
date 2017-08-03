@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@color/title_bg"
+    android:id="@+id/fl_title"
+    >
+
+<include layout="@layout/m_title"/>
+    <com.wenyi.uistyle.widget.ImageView
+        android:id="@+id/title_add"
+        style="@style/ww_ripple"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:paddingLeft="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:src="@mipmap/ic_address_add"
+        />
+
+</FrameLayout>

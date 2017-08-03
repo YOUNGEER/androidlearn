@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55555555"
+   android:id="@+id/fl_content"
+    >
+<Button
+    android:id="@+id/btn_camera"
+    style="@style/btn_white"
+    android:layout_gravity="bottom"
+    android:text="相机"
+    android:layout_marginBottom="90dp"
+
+    />
+
+    <Button
+        android:id="@+id/btn_photo"
+
+        style="@style/btn_white"
+        android:layout_gravity="bottom"
+        android:text="@string/photo"
+
+        android:layout_marginBottom="45dp"
+        />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/btn_white"
+        android:layout_gravity="bottom"
+        android:text="@string/cancel"
+
+        />
+
+</FrameLayout>

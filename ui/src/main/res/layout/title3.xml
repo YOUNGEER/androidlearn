@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@color/title_bg"
+    android:id="@+id/fl_title"
+
+    >
+
+<include layout="@layout/m_title"/>
+    <com.wenyi.uistyle.widget.Button
+        android:id="@+id/title_right_text"
+        style="@style/ww_ripple"
+        android:layout_gravity="right|center_vertical"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/dp_4"
+        android:paddingRight="@dimen/dp_4"
+        android:gravity="center_vertical"
+        tools:text="添加"
+        />
+
+</FrameLayout>

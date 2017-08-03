@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:gravity="center"
+    >
+    <LinearLayout
+      style="@style/wh_ww"
+        android:background="@mipmap/bg_home_title"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_search"
+        style="@style/wh_w"
+            android:layout_height="match_parent"
+            android:drawableLeft="@mipmap/ic_search"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_8"
+            android:lines="1"
+            android:textColorHint="@color/hint"
+            />
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_scan"
+            android:layout_gravity="right"
+            android:paddingRight="@dimen/dp_4"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_home_news"
+        android:layout_marginLeft="@dimen/dp_8"
+        />
+
+</LinearLayout>

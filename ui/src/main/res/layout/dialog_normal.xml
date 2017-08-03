@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/wh_mw"
+    android:background="@drawable/dialog_bg"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingTop="@dimen/dp_8"
+        />
+
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/title"
+        tools:text="恭喜你，注册成功"
+
+        android:paddingRight="@dimen/dp_12"
+        android:paddingLeft="@dimen/dp_12"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <View
+        style="@style/divider_horizontal_style"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <com.wenyi.uistyle.widget.Button
+
+            android:id="@+id/dialog_ok"
+            android:layout_width="match_parent"
+            style="@style/btn_ripple"
+            android:textColor="@color/theme"
+            android:layout_height="match_parent"
+            android:text="@string/ok"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/divider"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            ></com.wenyi.uistyle.widget.Button>
+        <View
+            android:id="@+id/divider"
+            android:layout_centerHorizontal="true"
+            style="@style/divider_vertical_style"
+
+            />
+        <com.wenyi.uistyle.widget.Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="match_parent"
+            style="@style/btn_ripple"
+            android:layout_height="match_parent"
+            android:text="@string/cancel"
+            android:textColor="@color/theme"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/divider"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            ></com.wenyi.uistyle.widget.Button>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

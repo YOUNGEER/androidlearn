@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/register_title_item"
+        tools:text="@string/phone_code"
+        />
+
+    <TextView
+        android:id="@+id/tv_text"
+        style="@style/register_edit_style"
+
+        android:paddingRight="@dimen/dp_8"
+        android:textColor="@color/text"
+        tools:drawableRight="@mipmap/right_arrow"
+        tools:text="hhhhhhhhhh"
+        />
+
+</merge>
